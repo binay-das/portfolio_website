@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    width: 90%;
+    height:60px;
+    height: 30px;
+    margin: 30px auto;
+    padding: 20xp auto;
+    align-items: center;
+    justify-content:flex-end;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin: 0 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    color:white;
+}
+nav ul li a:hover{
+    color: red;
+}
+body{
+    background: rgb(141, 71, 71);
+}
+.intern{
+    display: flex;
+    margin: 50px 0;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.intern img{
+    width: 70%;
+    margin: 20px 0;
+}
+.intern p{
+    margin: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.intern1{
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+}
+.intern2{
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+}
+.intern3{
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+}
+.project{
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.project1{
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+}
+.project2{
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+}
+.project3{
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+}
+.project p{
+    margin: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.project img{
+    width: 60%;
+    margin: 20px 0;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.headings{
+    text-align: center;
+    color: wheat;
+}
+body{
+    background: linear-gradient(to bottom right, #333399 0%, #ff9900 100%);
+}
+@media (max-width: 1000px){
+    ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: -36%;
+        text-align: center;
+    }
+    .intern, .project{
+        flex-direction: column;
+    }
+}

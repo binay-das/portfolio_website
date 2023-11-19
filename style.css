@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.class{
+    border: 2px solid  rgb(108, 88, 88);
+    position: relative;
+    width: 100%;
+}
+nav{
+    display: flex;
+    width: 90%;
+    height:60px;
+    height: 30px;
+    margin: 30px auto;
+    padding: 20xp auto;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin: 0 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    color:white;
+}
+nav ul li a:hover{
+    color: red;
+    transform: scale(1.5);
+    
+}
+.button{
+    transition: 0.5s;
+}
+.button:hover{
+    color: wheat;
+    background-color:rgb(67, 64, 57) ;
+    transform: scale(1.2);
+}
+.detail{
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
+    justify-content:space-around;
+    align-items: center;
+}
+.detail h1{
+    font-size: 70px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+.detail p{
+    color: #605b5b;
+    color: wheat;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 24px;
+}
+.detail a{
+    background: #7d7b7b;
+    padding: 10px 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.detail img{
+    width: 400px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 200px;
+}
+.brand{
+    margin: 20px;
+    padding: 20px;
+}
+.seo{
+    margin: 20px;
+    padding: 20px;
+}
+.design{
+    margin: 20px;
+    padding: 20px;
+}
+.second img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+.second h3{
+    margin: 10px;
+}
+.div{
+    background: linear-gradient(to bottom right, #333399 0%, #ff9900 100%);
+}
+@media (max-width: 900px){
+    ul{
+        flex-direction: column;
+        height: 90px;
+        align-items: center;
+    }
+    nav{
+        justify-content: center;
+    }
+    .detail{
+        flex-direction: column;
+        align-items: center;
+    }
+    .second{
+        flex-direction: column;
+    }
+}

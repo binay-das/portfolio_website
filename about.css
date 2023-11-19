@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+    margin: 30px auto;
+    padding: 20xp auto;
+    align-items: center;
+
+    display: flex;
+    width: 90%;
+    height:60px;
+    height: 30px;
+    margin: 30px auto;
+    padding: 20xp auto;
+    align-items: center;
+    justify-content:flex-end;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin: 0 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    color:white;
+}
+nav ul li a:hover{
+    color: red;
+}
+body{
+    background: linear-gradient(to bottom right, #333399 0%, #ff9900 100%);
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 615px;
+}
+
+main img{
+    width: 50%;
+    border-radius: 50%;
+    margin: 20px 30px;
+    transition: 0.5s;
+}
+main img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.abouts{
+    border-radius: 40px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 0;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(160, 112, 231);
+    transition: 0.5s;
+
+    background-color: rgb(156, 177, 244); 
+    box-shadow: 71px 39px 68px rgba(85, 45, 160, 1.1);
+
+    background: rgb(122,75,121);
+    background: linear-gradient(155deg, rgba(122,75,121,1) 0%, rgba(171,52,126,1) 50%, rgba(18,131,163,1) 100%);
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 20px;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    font-size: 30px;
+    margin: 10px 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    color: rgb(231, 214, 184);
+}
+.abouts p{
+    font-family: cursive;
+}
+@media (max-width: 930px){
+    .about{
+        flex-direction: column;
+    }
+}
+@media (max-width: 900px){
+    ul{
+        flex-direction: column;
+        height: 90px;
+        align-items: center;
+    }
+    nav{
+        justify-content: center;
+    }
+}

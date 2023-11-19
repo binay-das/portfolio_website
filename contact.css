@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    width: 90%;
+    height:60px;
+    height: 30px;
+    margin: 30px auto;
+    padding: 20xp auto;
+    align-items: center;
+    justify-content:flex-end;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin: 0 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    color:white;
+}
+nav ul li a:hover{
+    color: red;
+}
+.class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, #333399 0%, #ff9900 100%);
+}
+
+.detail{
+    width: 80%;
+    display: flex;
+    margin: 30px 0;
+}
+.left img{
+    width: 80%;
+    margin-top: 30px;
+}
+
+.left{
+    width: 40%;
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.left h2{
+    margin: 30px 20px;
+}
+.left p{
+    margin: 10px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+.name{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+.email{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+.feedback{
+    border-radius: 10px;
+    padding: 10px;
+    height: 50px;
+    text-align:left;
+    margin: 20px;
+    resize: vertical;
+}
+button{
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(33, 26, 26);
+    color: white;
+}
+@media (max-width: 900px){
+    ul{
+        flex-direction: column;
+        height: 90px;
+        align-items: center;
+    }
+    nav{
+        justify-content: center;
+    }
+    .detail{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.bottom{
+    margin-top: 70px;
+    text-align: center;
+}
+.bottom p{
+    letter-spacing: 2px;
+    margin: 10px 0;
+}

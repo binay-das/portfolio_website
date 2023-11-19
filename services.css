@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    width: 90%;
+    height:60px;
+    height: 30px;
+    margin: 20px;
+    padding: 20xp;
+    align-items: center;
+    justify-content:flex-end;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin: 0 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    color:white;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+body{
+    background: linear-gradient(to bottom right, #333399 0%, #ff9900 100%);
+    display: flex;
+    overflow-x: hidden;
+}
+
+.detail{
+    width: 80%;
+    margin: 50px;
+    padding: 20px 40px;
+}
+.detail h1{
+    letter-spacing:5px;
+    margin: 0 50px;
+}
+.detail img{
+    width: 100px;
+    transition: 0.5s;
+}
+.detail img:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+}
+.circle{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 400px;
+    animation: rotate 25s linear infinite;
+}
+.work{
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+.html{
+    position: relative;
+    top: -50px;
+    left: 100px;
+    animation: rotate 25s linear infinite;
+}
+.css{
+    position: relative;
+    top: 50px;
+    left: 183px;
+    animation: rotate 25s linear infinite;
+}
+.js{
+    position: relative;
+    top: 252px;
+    left: 132px;
+    animation: rotate 25s linear infinite;
+}
+.m{
+    position: relative;
+    top: 320px;
+    left: 312px;
+    animation: rotate 25s linear infinite;
+}
+.e{
+    position: relative;
+    top: 307px;
+    left: -35px;
+    animation: rotate 25s linear infinite;
+}
+.r{
+    position: relative;
+    top: 130px;
+    left: -258px;
+    animation: rotate 25s linear infinite;
+}
+.n{
+    position: relative;
+    top: -50px;
+    left: -318px;
+    animation: rotate 25s linear infinite;
+}
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+.details{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+.details h1{
+    font-size: 20px;
+}
+.details p{
+    padding: 10px;
+    font-size: 20px;
+}
+.div1{
+    margin: 20px;
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #e6a133;
+    transition: 0.5s;
+}
+.div2{
+    margin: 20px;
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #e6a133;
+    transition: 0.5s;
+}
+.div3{
+    margin: 20px;
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #e6a133;
+    transition: 0.5s;
+}
+.div1:hover, .div2:hover, .div3:hover{
+    transform:scaleX(1.1);
+}
